@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+/*wrapper*/
+#wrapper{
+	width: 1000px;
+	height: 600px;
+	background-color: #333;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+/*header*/
+#header{
+	width: 80px;
+	height: 50px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 30px;
+	box-shadow: 0 5px 5px #666;
+}
+#eye-left{
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#eye-line{
+	width: 40px;
+	height: 1px;
+	background-color: #333;
+	float: left;
+	margin-top: 24px;
+}
+#eye-right{
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	border-radius: 5px;
+	float: left;
+	margin-top: 20px;
+}
+
+/*body*/
+#body{
+	width: 400px;
+	margin: 0 auto;
+	clear: both;
+}
+#hand-left{
+	width: 56px;
+	height: 260px;
+	background-color: #FFFFFF;
+	transform: rotate(20deg);
+	border-radius: 60px 10px 24px 50px;
+	float: left;
+	margin-left: 52px;
+	margin-top: 20px;
+}
+#stomach-top{
+	width: 180px;
+	height: 140px;
+	margin-top: -5px;
+	background-color: #FFFFFF;
+	border-radius: 90px 90px 30px 30px;
+	float: left;
+}
+#heart{
+	width: 20px;
+	height: 20px;
+	background-color: #eee;
+	border-radius: 10px;
+	margin-top: 36px;
+	margin-left: 110px;
+	border: 1px solid #ddd;
+}
+#stomach-bottom{
+	width: 220px;
+	height: 200px;
+	background-color: #FFFFFF;
+	border-radius: 60px 60px 100px 100px;
+	float: left;
+	margin-top: -30px;
+	margin-left: -20px;
+	border-bottom: 1px solid #eee;
+	box-shadow: 0 5px 5px #666;
+}
+#hand-right{
+	width: 56px;
+	height: 260px;
+	background-color: #FFFFFF;
+	transform: rotate(-20deg);
+	border-radius: 10px 60px 50px 24px;
+	float: left;
+	margin-top: -114px;
+	margin-left: -20px;
+}
+
+/*footer*/
+#footer{
+	width: 400px;
+	margin: 0 auto;
+	clear: both;
+}
+#footer-left{
+	width: 70px;
+	height: 120px;
+	background-color: #FFFFFF;
+	border-radius: 18px 12px 20px 18px;
+	float: left;
+	margin-left: 128px;
+	margin-top: -30px;
+	border-right: 1px solid #eee;
+}
+#footer-right{
+	width: 70px;
+	height: 120px;
+	background-color: #FFFFFF;
+	border-radius: 12px 18px 18px 20px;
+	float: left;
+	margin-top: -30px;
+	border-left: 1px solid #eee;
+}
